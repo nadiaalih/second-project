@@ -175,7 +175,7 @@ width:100%;
 }
 @media(max-width:425px){
     .section_cards {
-        height: 200vh;
+        height: 193vh;
     }
 }
 
@@ -187,19 +187,32 @@ width:100%;
     height:100vh;
     /* background-color: blue; */
 }
-
-.section4 .nav-pills .nav-link{
-    color:black !important;
-    background-color: rgba(127, 255, 212, 0.347) !important;
-    font-weight: bold !important;
-    font-size: 20px !important;
+.section4 .nav-link{
+    color:rgba(0, 0, 0, 0.7)!important;
+    margin-bottom: 19px;
+    text-align: left !important;
 }
-.section4 .nav-pills .nav-link .active{
-    color:black !important;
-    background-color: rgba(127, 255, 212, 0.347)!important;
+.section4 h1, h {
+    font-size: 1.1rem;
+}
+
+
+.section4 .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color:#1bac91!important;
+    background-color: white;
+}
+.section4 .nav-link.active {
+    box-shadow: 0px 2px 15px rgb(0 0 0 / 12%) !important;
 }
 /* end section4 */
+/* start media section4 */
+@media(max-width:425px){
+    .section4{
+        height: 140vh; 
+    }
+}
 
+/* end media section4 */
 /* start section5 */
  .section5 .nav{
     margin-top: 3rem;
@@ -343,7 +356,7 @@ border-right: 3px white solid;
 }
 @media(max-width:425px){
     .section5{
-        height: 382vh; 
+        height: 360vh; 
     }
 }
 
@@ -451,6 +464,22 @@ background-color: white;
 /* margin-left: 300px;    */
 }
 /* end section7 */
+/* start media section7 */
+
+@media(max-width:768px){
+    .section7{
+        height: 96vh; 
+    }
+}
+@media(max-width:425px){
+    .section7{
+        height: 110vh; 
+    }
+}
+
+
+
+/* end media section7 */
 /* start section8 */
 .section8 {
     height:140vh;
