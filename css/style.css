@@ -4,7 +4,7 @@ body {
 
 .section1 {
 
-    height: 100vh;
+    height: 102vh;
     background-image: url(../img/4bde6108c991e0003761de1d67ee5ae430271b56_2_690x408.jpeg);
     background-size: 100% 100%;
 
@@ -134,7 +134,7 @@ img {
 /* start section3 */
 
 .section3{
-   background-color: rgba(127, 255, 212, 0.347);
+   background-color: rgba(127, 255, 212, 0.093);
 
    border-width: 3px;
 
@@ -142,7 +142,7 @@ img {
 /* start section_card */
 .section_cards{
     height:75vh;
-    background-color:rgba(127, 255, 212, 0.347) ;
+    background-color: rgba(127, 255, 212, 0.093);
 }
 .section_cards h1{
     padding-top: 17px;
@@ -224,7 +224,7 @@ width:100%;
     
 }
 .section5{
-    background-color: rgba(127, 255, 212, 0.347);
+    background-color: rgba(127, 255, 212, 0.093);
     height:132vh;
 }
 
@@ -445,7 +445,7 @@ height:100%;
 
 .section7{
 height:80vh;
-background-color: rgba(127, 255, 212, 0.347);
+background-color: rgba(127, 255, 212, 0.093);
 
 }
 .section7 .btn{
