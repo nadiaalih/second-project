@@ -141,7 +141,7 @@ img {
 }
 /* start section_card */
 .section_cards{
-    height:100vh;
+    height:75vh;
     background-color:rgba(127, 255, 212, 0.347) ;
 }
 .section_cards h1{
@@ -184,7 +184,7 @@ width:100%;
 /* start section4 */
 
 .section4{
-    height:100vh;
+    height:80vh;
     /* background-color: blue; */
 }
 .section4 .nav-link{
@@ -214,6 +214,10 @@ width:100%;
 
 /* end media section4 */
 /* start section5 */
+.section5{
+    padding-top: 1px;
+}
+
  .section5 .nav{
     margin-top: 3rem;
     justify-content: center;
@@ -221,7 +225,7 @@ width:100%;
 }
 .section5{
     background-color: rgba(127, 255, 212, 0.347);
-    height:146vh;
+    height:132vh;
 }
 
 .section5 .nav-pills .nav-link{
@@ -440,7 +444,7 @@ height:100%;
 /* /* .section7 */
 
 .section7{
-height:90vh;
+height:80vh;
 background-color: rgba(127, 255, 212, 0.347);
 
 }
